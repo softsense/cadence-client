@@ -35,7 +35,7 @@ import (
 	"go.uber.org/cadence/internal/common/debug"
 	"go.uber.org/cadence/internal/worker"
 
-	"github.com/uber-go/tally"
+	"github.com/uber-go/tally/v4"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"golang.org/x/time/rate"
