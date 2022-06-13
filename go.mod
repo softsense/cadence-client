@@ -14,7 +14,7 @@ require (
 	github.com/robfig/cron v1.2.0
 	github.com/shirou/gopsutil v3.21.11+incompatible
 	github.com/stretchr/testify v1.8.1
-	github.com/uber-go/tally v3.3.15+incompatible
+	github.com/uber-go/tally/v4 v4.1.1
 	github.com/uber/cadence-idl v0.0.0-20230905165949-03586319b849
 	github.com/uber/jaeger-client-go v2.22.1+incompatible
 	github.com/uber/tchannel-go v1.32.1
@@ -47,7 +47,9 @@ require (
 	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/tklauser/go-sysconf v0.3.11 // indirect
 	github.com/tklauser/numcpus v0.6.0 // indirect
+	github.com/twmb/murmur3 v1.1.5 // indirect
 	github.com/uber-go/mapdecode v1.0.0 // indirect
+	github.com/uber-go/tally v3.3.15+incompatible // indirect
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
 	go.uber.org/dig v1.10.0 // indirect
