@@ -33,7 +33,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/opentracing/opentracing-go"
 	"github.com/pborman/uuid"
-	"github.com/uber-go/tally"
+	"github.com/uber-go/tally/v4"
 	"go.uber.org/zap"
 
 	"go.uber.org/cadence/.gen/go/cadence/workflowserviceclient"
