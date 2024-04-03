@@ -7,19 +7,19 @@ require (
 	github.com/cristalhq/jwt/v3 v3.1.0
 	github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a
 	github.com/gogo/protobuf v1.3.2
-	github.com/golang/mock v1.6.0
+	github.com/golang/mock v1.5.0
 	github.com/marusama/semaphore/v2 v2.5.0
 	github.com/opentracing/opentracing-go v1.1.0
 	github.com/pborman/uuid v0.0.0-20160209185913-a97ce2ca70fa
 	github.com/robfig/cron v1.2.0
 	github.com/shirou/gopsutil v3.21.11+incompatible
 	github.com/stretchr/testify v1.8.1
-	github.com/uber-go/tally/v4 v4.1.14
+	github.com/uber-go/tally/v4 v4.1.1
 	github.com/uber/cadence-idl v0.0.0-20230905165949-03586319b849
 	github.com/uber/jaeger-client-go v2.22.1+incompatible
 	github.com/uber/tchannel-go v1.32.1
 	go.uber.org/atomic v1.9.0
-	go.uber.org/goleak v1.2.1
+	go.uber.org/goleak v1.1.12
 	go.uber.org/multierr v1.6.0
 	go.uber.org/thriftrw v1.25.0
 	go.uber.org/yarpc v1.55.0

@@ -136,20 +136,6 @@ func (h *replayAwareHistogram) RecordDuration(value time.Duration) {
 	h.histogram.RecordDuration(value)
 }
 
-func (h *replayAwareHistogram) RecordDurationWithWeight(value time.Duration, weight int64) {
-	if *h.isReplay {
-		return
-	}
-	h.histogram.RecordDurationWithWeight(value, weight)
-}
-
-func (h *replayAwareHistogram) RecordValueWithWeight(value float64, weight int64) {
-	if *h.isReplay {
-		return
-	}
-	h.histogram.RecordValueWithWeight(value, weight)
-}
-
 // Start gives you a specific point in time to then record a duration.
 // Will use the configured duration buckets for the histogram.
 func (h *replayAwareHistogram) Start() tally.Stopwatch {
